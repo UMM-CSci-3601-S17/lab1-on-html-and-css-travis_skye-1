@@ -9,7 +9,7 @@ body {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    width: 15%;
+    width: 8%;
     background-color: #89da59;
     position: fixed;
     height: 100%;
@@ -21,11 +21,12 @@ body {
     color: #000;
     padding: 8px 16px;
     text-decoration: none;
+    /*text-align: left;*/
+    font-family: 'Trebuchet MS', Helvetica, sans-serif;
 }
 
 #navigation_bar li a:hover{
-    background-color: #FFFFFF;
-    color: blue;
+    background-color: #598234;
 }
 
 #page_content{
@@ -34,6 +35,7 @@ body {
     height: 100%;
     /* Merge Test */
 }
+
 
 #bookworm_home{
     height: 100px;
@@ -44,6 +46,10 @@ body {
 }
 .title {
     margin-bottom: -10px;
+}
+
+.book_table{
+    text-align:center;
 }
 
 .table_row {
