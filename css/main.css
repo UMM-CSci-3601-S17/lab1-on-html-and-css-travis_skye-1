@@ -28,15 +28,15 @@ body {
 }
 
 #page_content{
-    margin-left: 16%;
+    margin-left: 8%;
     padding: 2px;
     height: 100%;
 }
 
 
 #bookworm_home{
-    height: 100px;
-    width: 100px;
+    height: 80%;
+    width: 80%;
 }
 
 #home {
@@ -55,9 +55,6 @@ body {
     margin-bottom: -10px;
 }
 
-.book_table{
-    text-align:center;
-}
 
 .table_row {
     display: inline-block;
@@ -67,7 +64,7 @@ body {
 
 .cell_primary {
     display: table-cell;
-    width: 200px;
+    width: 250px;
     height: 40px;
     text-align: center;
     vertical-align: middle;
@@ -76,7 +73,7 @@ body {
 
 .cell_secondary {
     display: table-cell;
-    width: 200px;
+    width: 250px;
     height: 40px;
     text-align: center;
     vertical-align: middle;
@@ -87,21 +84,20 @@ body {
    to many images in the webpage without having
    to re-set each size over and over again.
  */
-#books_image, #tv_image, #music_image, #image_star_trek, #image_star_wars, #drama{
-    width: 250px;
-    height: 250px;
+#books_image, #tv_image, #collectibles_image, #board_games_image, #music_image {
+    width: 22%;
+    height: 22%;
 }
 
-.cell_primary:hover .tooltiptext{
-    visibility: visible;
+/* Rounded edge border is a CSS3 feature */
+footer, header{
+    border-radius: 25px;
+    margin: 5%;
+
+    border: 2px solid black;
+    padding: 20px;
 }
-
-.tooltiptext{
-    visibility: hidden;
-
-    position: absolute;
-    z-index:  1;
-
-    top: 50%;
-
+header {
+    margin-top: 1%;
+    margin-bottom: 2%;
 }
